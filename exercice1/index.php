@@ -12,12 +12,15 @@
  
  public function hello()
  {
-   $data = "hello , " .  $this -> firstName;
-   return $data;
+   echo "hello , " .  $this -> firstName;
+
  }
 }
- $nom = new User("jonh");
-echo $nom ->hello();
+function test(){
+  $user = new User('Johnnie');
+   $user->hello();
+}
+ test();
  
 
 
