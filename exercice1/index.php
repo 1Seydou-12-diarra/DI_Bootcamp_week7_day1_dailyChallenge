@@ -18,6 +18,8 @@
 }
 
 function test(){
+  $firstName = " jonnie";
+  $lastName = " Roe";
   $user = new User('Johnnie');
    $user->hello();
 }
